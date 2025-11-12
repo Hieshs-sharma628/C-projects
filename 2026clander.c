@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 { 
-printf("\t2026 day prediction");
+printf("\t2026 DAY'S PREDICTIOON");
 printf("\nEnter any date opf 2026::");
 int a,s;
 scanf("%d",&s);
@@ -72,19 +72,19 @@ exit(0);
 }
 if(month==4)
 {
-if(a==4)
+if(a==5)
 printf("\nSunday");
-else if(a==5) 
-printf("\nmonday");
 else if(a==6) 
+printf("\nmonday");
+else if(a==7) 
 printf("\ntuesday");
-else if(a==7)  
-printf("\nwednesday");
 else if(a==1)  
-printf("\nthursday");
+printf("\nwednesday");
 else if(a==2)  
-printf("\nfriday");
+printf("\nthursday");
 else if(a==3)  
+printf("\nfriday");
+else if(a==4)  
 printf("\nsaturday");
 else 
 printf("\n!!PLEASE ENTER THE RIGHT DATE");
