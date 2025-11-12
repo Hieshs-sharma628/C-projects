@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main()
 { 
-printf("Enter any date::");
+printf("\t2026 day prediction");
+printf("\nEnter any date opf 2026::");
 int a,s;
 scanf("%d",&s);
 a=s%7;
